@@ -6,6 +6,17 @@
 }
 
 /*--- Common START---*/
+.App {
+  min-width: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin-top: 52px;
+  margin-bottom: 52px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
 .subHeading {
   font-family: "Playfair Display", serif;
   font-style: normal;
@@ -59,14 +70,7 @@ header {
 }
 /*--- BlogHead Component END---*/
 
-/*--- App Component START ---*/
-.App {
-  min-width: 100vh;
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
-  margin: 52px 450px;
-}
+/*--- Main START ---*/
 main {
   display: flex;
   flex-flow: column nowrap;
@@ -79,7 +83,7 @@ main {
   flex-flow: row nowrap;
   justify-content: space-between;
 }
-/*--- App Component END ---*/
+/*--- Main END ---*/
 
 /* --- INGREDIENTS --- */
 .ingredients {
