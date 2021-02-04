@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*--- Common START---*/
+.subHeading {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333333;
+}
+.left-panel {
+  max-width: 560px;
+}
+/*--- Common END ---*/
+
+/*--- BlogHead Component START---*/
+header {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+}
+.blog-title {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 64px;
+  color: #000000;
+}
+.blog-description {
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4f4f4f;
+  width: 592px;
+  height: 51px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  margin-top: 12px;
+}
+.blog-description p {
+  margin-left: 12px;
+}
+.blog-image {
+  margin-top: 43px;
+}
+.blog-image img {
+  width: 100%;
+  height: 100%;
+}
+/*--- BlogHead Component END---*/
+
+/*--- App Component START ---*/
+.App {
+  min-width: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin: 52px 450px;
+}
+main {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-top: 48px;
+  flex-grow: 1 0 auto;
+  min-width: 100%;
+}
+.main-ingredients-card {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+/*--- App Component END ---*/
+
+/* --- INGREDIENTS --- */
+.ingredients {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  max-width: 560px;
+}
+.dishName {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #333333;
+  margin: 32px 0px;
+}
+
+/*--- IngredientListItem Component START---*/
+.ingredientListItem {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 6px 0px;
+}
+.bullet-square {
+  min-width: 21px;
+  max-width: 21px;
+  min-height: 21px;
+  max-height: 21px;
+  border: 1px solid #828282;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-right: 17px;
+}
+.ingredientListItem p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #333333;
+}
+/*--- IngredientListItem Component END---*/
+
+/*--- RecipeDetailsCard Component START ---*/
+.recipeDetailsCard {
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 42px 42px;
+  max-height: 300px;
+  min-width: 150px;
+}
+.cardItem {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+.cardItem[data-index="0"] .cardLeft,
+.cardItem[data-index="0"] .cardItemDesc {
+  color: #f2994a;
+}
+.cardLeft span {
+  min-width: 28px;
+  min-height: 28px;
+}
+.cardRight {
+  margin-left: 14px;
+}
+.cardItemName {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #bdbdbd;
+}
+.cardItemDesc {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+  margin-top: 4px;
+}
+/*--- RecipeDetailsCard Component END ---*/
+
+/*--- Instructions Component START ---*/
+.instructions {
+  margin-top: 28px;
+  max-width: 560px;
+}
+.instructionsList {
+  margin-top: 28px;
+}
+.instructionListItem {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 40px;
+}
+.instructionNumber {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+  background: #f2994a;
+  border-radius: 6px;
+  min-width: 36px;
+  max-width: 36px;
+  min-height: 36px;
+  max-height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.instructionNumber span {
+  margin-bottom: 8px;
+}
+.instruction {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-left: 15px;
+}
+.source {
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #bdbdbd;
+  margin-top: 17px;
+}
+.source a {
+  color: #bdbdbd;
+  text-decoration: none;
+}
+/*--- Instructions Component END ---*/
+
+/*--- Footer START ---*/
+footer {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 40px;
+  min-height: 12vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+footer a {
+  color: #a9a9a9;
+  text-decoration: none;
+}
+.logo {
+  height: 40px;
+  width: 40px;
+}
+.social-media {
+  min-width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+/*--- Footer END---*/
