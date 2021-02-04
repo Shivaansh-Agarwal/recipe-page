@@ -34,7 +34,7 @@
 
 ## Overview
 
-<img src="./screenshot.png" alt="Project Screenshot"/>
+<img src="screenshot.PNG" alt=""/>
 
 This project was built using ReactJS, and is among one of the early projects on ReactJS. I learnt a lot of things while building this project and also enjoying ReactJs.
 
