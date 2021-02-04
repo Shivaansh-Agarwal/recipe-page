@@ -39,15 +39,19 @@
 This project was built using ReactJS, and is among one of the early projects on ReactJS. I learnt a lot of things while building this project and also enjoying ReactJs.
 
 <h4><strong> Things Learnt: </strong></h4>
-- Passing Data to child components
-- Loops inside JSX for making HTML Elements
-- Got to know about 'dangerouslySetInnerHTML' in React.
-- Applying CSS on first-child
+<ul>
+   <li>Passing Data to child components </li>
+   <li>Loops inside JSX for making HTML Elements </li>
+   <li>Got to know about 'dangerouslySetInnerHTML' in React.</li>
+   <li>Applying CSS on first-child</li>
+</ul>
 
 <h4><strong> Queries & Questions which I need to figure out going forward: </strong></h4>
-- Struggling with naming of CSS Classes. How the naming should be done? Tried my best to make the css file maintainable.
-- Would it be better while maintaining the project if we make different CSS files for different components?
-- How do I get my code reviewed to know what things I did incorrectly and could be improved.
+<ul>
+   <li>Struggling with naming of CSS Classes. How the naming should be done? Tried my best to make the css file maintainable.   </li>
+   <li>Would it be better while maintaining the project if we make different CSS files for different components?   </li>
+   <li>How do I get my code reviewed to know what things I did incorrectly and could be improved.   </li>
+</ul>
 
 ### Built With
 
